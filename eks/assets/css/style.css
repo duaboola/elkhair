@@ -124,7 +124,7 @@ body {
 .hero_area {
     height: 98vh;
     position: relative;
-    background-image: url(../img/hero1.png);
+    background-image: url(../img/hero2.png);
     background-size: cover;
     background-position: bottom;
   }
