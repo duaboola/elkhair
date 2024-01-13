@@ -50,18 +50,19 @@
       margin: 10,
       nav: true,
       dots: false,
+      singleItem: true,
       navText: ['<span class="carousel-control-prev-icon" aria-hidden="true"></span>', '<span class="carousel-control-next-icon" aria-hidden="true"></span>'],
-      // responsive: {
-      //   0: {
-      //     items: 1,
-      //   },
-      //   438: {
-      //     items: 1, // Adjust this breakpoint to your needs
-      //   },
-      //   1201: {
-      //     items: 1,
-      //   }
-      // }
+      responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
     });
   });
 
@@ -114,14 +115,14 @@ $(document).on("click", ".naccs .menu div", function() {
 
 
 /*------------------Team -----------------*/
-$(document).ready(function(){
-    $(".team-carousel").owlCarousel({
-      items: 3,
-      loop: true,
-      margin: 10,
-      dots: true,
-    });
-  });
+// $(document).ready(function(){
+//     $(".team-carousel").owlCarousel({
+//       items: 3,
+//       loop: true,
+//       margin: 10,
+//       dots: true,
+//     });
+//   });
 
 /* -----------------Gallery ----------------*/
 $(document).ready(function(){
